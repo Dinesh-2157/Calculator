@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  /* background-color: aqua; */
+}
+.App{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(148, 162, 157);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  height: 70%;
+  width: 25%;
+  background-color: rgb(37, 34, 34);
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+
+}
+.up{
+
+  height: 30%;
+  width: 100%;
+  background-color: indigo;
+  border-radius: 24px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+ 
+
+}
+
+span{
+
+  height: 40%;
+  background-color: transparent;
+  border: none;
+  text-align: end;
+  font-size: larger;
+  color: white;
+  padding: 10px;
+
+}
+
+
+.down{
+
+  height: 70%;
+  width: 100%;
+  /* background-color: cadetblue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* color: white; */
+  font-size: larger;
+
+}
+
+.one{
+
+  height: 95%;
+  width: 22%;
+  /* background-color: rgb(67, 155, 155); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.two{
+
+  height: 95%;
+  width: 22%;
+  /* background-color: burlywood; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.three{
+
+  height: 95%;
+  width: 22%;
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.four{
+
+  height: 95%;
+  width: 22%;
+  /* background-color: darkorchid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: none;
+}
+.nums{
+
+  height: 18%;
+  width: 100%;
+  background-color: indigo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.no{
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 24px;
+}
+
+.sums{
+  
+  height: 18%;
+  width: 100%;
+  background-color:  rgb(60, 218, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  border: none;
+
+}
+.plus{
+  height: 36%;
+  width: 100%;
+  background-color: rgb(60, 218, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
